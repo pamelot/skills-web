@@ -1,0 +1,58 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="static/styles.css"/>
+	<title>Job Application</title>
+</head>
+<body>
+	<h1>Job Application</h1>
+	
+	<h2>To begin your application, submit the following information:</h2>
+
+	<form action="/">
+  		
+  		<label for="field-firstname">Enter your first name:</label>
+  		<input type="text" name="firstname" id="field-firstname">
+  			<br>
+  			<br>
+  		<label for="field-lastname">Enter your last name:</label>
+  		<input type="text" style="font-weight: bold" name="lastname" id="field-lastname">
+  			<br>
+  			<br>
+  		<label for="field-salaryask">Input your salary requirements:</label>
+  		<input type="text" name="salaryask" id="field-salaryask">
+  			<br>
+  			<br>
+        Select the position you are applying for:<br><br>
+        <select name="job">
+            <option value="softwareengineer">Software Engineer</option>
+            <option value="qaengineer">QA Engineer</option>
+            <option value="productmanager">Product Manager</option>
+        </select>
+
+        	<br>
+        	<br>
+  		<input type="submit" formmethod="post" formaction="/application"></input>
+
+	</form>
+
+</body>
+
+
+
+</html> 
+
+<!-- Make an HTML page, application-form.html, with a form that asks the user:
+
+Their first and last name (as separate fields),
+Their salary requirement as a number, and
+Which job they are applying for, from a list of:
+Software Engineer
+QA Engineer
+Product Manager
+It should also have a submit button that submits the form to the URL /application. This should be a POST request.
+
+It should have a large heading and some explanatory text. -->
+

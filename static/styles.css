@@ -1,0 +1,13 @@
+
+h2 {
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: black;
+}
+
+input[type="text"], textarea {background-color : #EEEE09; }
+input[type="submit"] {display: block; background: #EEEE09; }
+
+
